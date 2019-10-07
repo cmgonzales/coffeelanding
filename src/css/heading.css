@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+.background{
+    background-image: url('../img/coffee.jpg');
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+}
+
+.coffee{
+    color: white; 
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Pinyon Script', cursive;
+
+
+}
+h3{
+    font-size: 3em;
+    font-family: 'PT Serif', serif;
+}
