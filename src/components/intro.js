@@ -9,8 +9,8 @@ const Intro = props => (
       <Col md="6"></Col>
       <Col md="6">
         <div className = "coffee">
-          <h1>{props.title}</h1>
-          <h3>{props.description}</h3>
+          <h1 className = "justCoffee">{props.title}</h1>
+          <h3 className = "life">{props.description}</h3>
         </div>
       </Col>
     </Row>

@@ -8,7 +8,7 @@ const Body = props => (
     <Container>
     <Row>
     <Col md="6">
-    <Coffee className = "coffee"
+    <Coffee 
     title = "Imported coffee worldwide"
     body = "The ideal conditions for coffee trees to thrive are found around the world in along the Equatorial zone called “The Bean Belt,” located between latitudes 25 
     degrees North and 30 degrees South." />

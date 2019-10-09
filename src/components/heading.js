@@ -9,8 +9,7 @@ const Heading = props => {
     <div className="background">
       <Intro
       title="It's not just coffee" 
-      description="Its a way of life" />
-
+      description="Its a way of life!" />
     </div>
   );
 };

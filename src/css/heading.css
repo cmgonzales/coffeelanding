@@ -9,20 +9,17 @@
     height: 80vh;
     text-align: center;
 }
-
 .coffee{
     color: white; 
-    margin-top: 100px;
+   
     margin-left: 60px;
 }
-
-h1{
-    font-size: 40px;
-    font-family: 'Pinyon Script', cursive;
-
-
-}
-h3{
+.justCoffee{
+    margin-top: 120px;
     font-size: 3em;
+    font-family: 'Pinyon Script', cursive;
+}
+.life{
+    font-size: 4em;
     font-family: 'PT Serif', serif;
 }
