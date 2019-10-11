@@ -1,19 +1,18 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
-
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 345,
+    maxWidth: 445
   },
   media: {
-    height: 140,
-  },
+    height: 360
+  }
 });
 
 const Cards = props => {
@@ -24,7 +23,7 @@ const Cards = props => {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image= {props.img}
+          image={props.imge}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -36,9 +35,8 @@ const Cards = props => {
           </Typography>
         </CardContent>
       </CardActionArea>
-      
     </Card>
   );
-}
+};
 
-export default Cards
+export default Cards;
