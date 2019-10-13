@@ -6,7 +6,7 @@ import '../css/process.css'
 const Process = props => (
 <div  className = "contain">
   <Container fluid>
-  <Row>
+  <Row >
   <Col md ={1}></Col>
     {Api.map(({ pic, name, desc }) => (
       <>
