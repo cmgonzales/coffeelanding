@@ -5,17 +5,15 @@ import { Container, Row, Col } from 'reactstrap';
 import '../css/process.css'
 const Process = props => (
 <div  className = "contain">
-  <Container fluid>
+  <Container>
   <Row >
-  <Col md ={1}></Col>
     {Api.map(({ pic, name, desc }) => (
       <>
-      <Col md={3} className = "innerCard">
+      <Col md={4} className = "innerCard">
         <Card imge={pic} name={name} desc={desc} />
         </Col>
       </>
     ))}
-    <Col md ={1}></Col>
     </Row>
     </Container>
     </div>
