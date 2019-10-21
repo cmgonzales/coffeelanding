@@ -7,11 +7,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
-    text-align: center;
+  
 }
 .coffee{
     color: white; 
-   
+    text-align: center;
     margin-left: 60px;
 }
 .justCoffee{
@@ -22,4 +22,9 @@
 .life{
     font-size: 4em;
     font-family: 'PT Serif', serif;
+}
+
+.quote{
+    margin-left: 75px;
+
 }
