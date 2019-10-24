@@ -1,12 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import { PropTypes } from "prop-types";
 import { Container, Row, Col } from "reactstrap";
 import { Button } from 'reactstrap';
 import '../css/heading.css'
 
+const  [modal, setModal] = useState(false)
 
 const mode = () =>{
-  console.log("click")
+  moodal()
 }
 
 const Intro = props => (
