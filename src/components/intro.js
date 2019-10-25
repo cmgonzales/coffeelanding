@@ -1,16 +1,17 @@
-import React, {useState} from "react";
+import React from "react";
+import useModal from './useModal'
+
+import Modal from './modal'
 import { PropTypes } from "prop-types";
 import { Container, Row, Col } from "reactstrap";
 import { Button } from 'reactstrap';
 import '../css/heading.css'
 
-const  [modal, setModal] = useState(false)
 
-const mode = () =>{
-  moodal()
-}
-
-const Intro = props => (
+const Intro = props => {
+  const {isShowing, toggle} = useModal()
+  return(
+    <div>
   <Container>
     <Row>
       <Col md="6"></Col>
@@ -19,13 +20,17 @@ const Intro = props => (
           <h1 className = "justCoffee">{props.title}</h1>
           <h3 className = "life">{props.description}</h3>
           </div>
-          <Button onClick = {mode} className = "quote" color="primary">Get a quote</Button>{' '}
-         
+          <Button onClick = {toggle} className = "quote" color="primary">Get a quote</Button>{' '}
       </Col>
     </Row>
-  </Container>
-
-);
+  </Container> 
+  <Modal
+  isShowing = {isShowing}
+  hide = {toggle}
+  />
+  </div>
+  )
+};
 
 Intro.propType = {
   title: PropTypes.string,
