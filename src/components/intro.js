@@ -1,15 +1,14 @@
 import React from "react";
-import useModal from './useModal'
-
-import Modal from './modal'
 import { PropTypes } from "prop-types";
 import { Container, Row, Col } from "reactstrap";
 import { Button } from 'reactstrap';
+import useModal from './useModal';
 import '../css/heading.css'
+import Modal from "./modal";
 
 
 const Intro = props => {
-  const {isShowing, toggle} = useModal()
+  const {toggle, isShowing} = useModal();
   return(
     <div>
   <Container>
@@ -19,15 +18,15 @@ const Intro = props => {
         <div className = "coffee">
           <h1 className = "justCoffee">{props.title}</h1>
           <h3 className = "life">{props.description}</h3>
+          <Button color="primary" onClick = {toggle}>Get a quote</Button>{' '}
           </div>
-          <Button onClick = {toggle} className = "quote" color="primary">Get a quote</Button>{' '}
       </Col>
     </Row>
   </Container> 
   <Modal
-  isShowing = {isShowing}
-  hide = {toggle}
-  />
+        isShowing={isShowing}
+        hide={toggle}
+      />
   </div>
   )
 };
