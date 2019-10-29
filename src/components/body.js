@@ -14,7 +14,7 @@ const Body = props => (
     degrees North and 30 degrees South." />
     </Col>
     <Col md="6">
-    <img src = {beans} alt = "coffee beans"></img>
+    <img className = "coffee-beans" src = {beans} alt = "coffee beans"></img>
     </Col>
   </Row>
 </Container>

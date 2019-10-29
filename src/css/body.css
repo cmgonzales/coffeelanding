@@ -11,7 +11,7 @@ bottom: 50%;
 }
 .title{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 170px;
     font-size: 2.5em;
     font-family: 'PT Serif', serif;
 }
@@ -21,3 +21,9 @@ bottom: 50%;
     font-size: 1.1em;
     font-family: 'PT Serif', serif;
 }
+
+.coffee-beans{
+    width: 90%;
+    height: 90%
+}
+

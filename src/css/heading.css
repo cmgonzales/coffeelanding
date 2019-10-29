@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
 
 .background{
-    background-image: url('../img/coffee.jpg');
+
    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     margin-left: 60px;
 }
 .justCoffee{
-    margin-top: 120px;
+    margin-top: 100px;
     font-size: 3em;
     font-family: 'Pinyon Script', cursive;
 }
@@ -42,4 +42,14 @@
   .button-default {
     background: #247BA0;
     color: #fff;
+  }
+
+  @media only screen and (max-width: 420px) {
+    .justCoffee{
+      margin-top: 70px;
+    }
+    .coffee{
+  
+ margin: 0 auto;    
+  }
   }
