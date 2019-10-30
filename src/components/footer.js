@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/footer.css'
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 const Footer = props => (
 
  <div className = "footer">
