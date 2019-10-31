@@ -3,7 +3,8 @@ import './App.css';
 import Heading from './components/heading'
 import Body from './components/body'
 import Process from './components/process'
-import Footer from './components/footer'
+import Footer from './footer'
+
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       <Body/>
       <Process/>
       <Footer/>
-     
+
     </div>
   );
 }
