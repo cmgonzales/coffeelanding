@@ -1,1 +1,29 @@
-body{height:100%}.coffee{margin-top:50px;top:50%;bottom:50%}.title{text-align:center;margin-top:170px;font-size:2.5em;font-family:'PT Serif',serif}.body{margin-top:20px;font-size:1.1em;font-family:'PT Serif',serif}.coffee-beans{width:90%;height:90%}
+
+body{
+ height: 100%;
+}
+
+.coffee{
+margin-top: 50px;
+top: 50%;
+bottom: 50%;
+
+}
+.title{
+    text-align: center;
+    margin-top: 170px;
+    font-size: 2.5em;
+    font-family: 'PT Serif', serif;
+}
+
+.body{
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-family: 'PT Serif', serif;
+}
+
+.coffee-beans{
+    width: 90%;
+    height: 90%
+}
+

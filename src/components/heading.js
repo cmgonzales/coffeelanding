@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import Intro from "./intro";
 import '../App.css'
 import desktopImg from '../img/coffee.jpg'
-import mobileImg from '../img/coffeeMobile.png'
+import mobileImg from '../img/coffeeMobile.jpg'
 
 const Heading = props => {
 
