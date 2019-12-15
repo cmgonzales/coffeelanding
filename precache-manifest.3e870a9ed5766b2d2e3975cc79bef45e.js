@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbd95a1597f1c0d9bf9c6603f2e6af4e",
+    "revision": "2efd70bbdee63161b9e42045f4e94915",
     "url": "/coffeelanding/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coffeelanding/static/css/2.fff34fbd.chunk.css"
   },
   {
-    "revision": "f996cd76cef2c9dc7384",
+    "revision": "180a478799205e392e8e",
     "url": "/coffeelanding/static/css/main.65569311.chunk.css"
   },
   {
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coffeelanding/static/js/2.26583a76.chunk.js"
   },
   {
-    "revision": "f996cd76cef2c9dc7384",
-    "url": "/coffeelanding/static/js/main.967513ea.chunk.js"
+    "revision": "180a478799205e392e8e",
+    "url": "/coffeelanding/static/js/main.b8e1b5ed.chunk.js"
   },
   {
     "revision": "42afc2a85ac246e2d371",
     "url": "/coffeelanding/static/js/runtime-main.40bcae35.js"
   },
   {
-    "revision": "47c1e87687b64ca93fdc1d96b2ed782e",
-    "url": "/coffeelanding/static/media/beans.47c1e876.jpg"
+    "revision": "218c7bbfd34b5c01c71c386e66d58441",
+    "url": "/coffeelanding/static/media/beans.218c7bbf.jpg"
   },
   {
-    "revision": "f551e7391170f3e70da9b1443f340390",
-    "url": "/coffeelanding/static/media/coffee.f551e739.jpg"
+    "revision": "2b3eb1e43bd7a2ca77e57ee1afbc5941",
+    "url": "/coffeelanding/static/media/coffee.2b3eb1e4.jpg"
   },
   {
-    "revision": "dbe56f0db089264642a625bba3b7c5c2",
-    "url": "/coffeelanding/static/media/coffeeMobile.dbe56f0d.png"
+    "revision": "b0244dc290020957fb63751a93090477",
+    "url": "/coffeelanding/static/media/coffeeMobile.b0244dc2.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -56,15 +56,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coffeelanding/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "21d5bda8eb5879b100cfe98664aebc90",
-    "url": "/coffeelanding/static/media/package.21d5bda8.jpg"
+    "revision": "1d89748c94528e830e7b81ed30afd451",
+    "url": "/coffeelanding/static/media/package.1d89748c.jpg"
   },
   {
-    "revision": "09ce470242c91309f67559698bc2ad4c",
-    "url": "/coffeelanding/static/media/roasted.09ce4702.jpg"
+    "revision": "46c67a457f77323d81fb67d74dfa3167",
+    "url": "/coffeelanding/static/media/roasted.46c67a45.jpg"
   },
   {
-    "revision": "1f9df34ae6fe19440ccf0b9253f1205f",
-    "url": "/coffeelanding/static/media/steaming-coffee-beans.1f9df34a.jpg"
+    "revision": "cd9af59479b26c7eb94d65cd5a36ff97",
+    "url": "/coffeelanding/static/media/steaming-coffee-beans.cd9af594.jpg"
   }
 ]);
