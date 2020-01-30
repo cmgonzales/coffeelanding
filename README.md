@@ -1,4 +1,4 @@
 A local coffee company's landing page using React.
 Front end development
 using github pages
-using local api
+using built in local api
