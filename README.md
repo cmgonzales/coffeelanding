@@ -1,4 +1,1 @@
-A local coffee company's landing page using React.
-Front end development
-using github pages
-
+Small buisness coffee landing simple website thats using smooth Nav
