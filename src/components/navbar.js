@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import '../css/nav.css'
 export default class Navbar extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
