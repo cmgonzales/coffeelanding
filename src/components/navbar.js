@@ -64,7 +64,7 @@ export default class Navbar extends Component {
                 Section 4
               </Link>
             </li>
-            <li className="navs">
+            <li className="nav">
               <Link
                 activeClass="active"
                 to="section5"
