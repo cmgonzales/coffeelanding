@@ -12,7 +12,8 @@
 .coffee{
     color: white; 
     text-align: center;
-    margin-left: 60px;
+    margin-left:10%;
+   
 }
 .justCoffee{
     margin-top: 100px;
@@ -23,12 +24,6 @@
     font-size: 4em;
     font-family: 'PT Serif', serif;
 }
-
-.quote{
-  margin-left: 250px;
-
-}
-
 
   button {
     font-size: .9rem;
