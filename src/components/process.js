@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 import '../css/process.css'
 const Process = props => (
 <div  className = "contain">
-  <Container>
+  <Container className = 'cards'>
   <Row >
     {Api.map(({ pic, name, desc }) => (
       <>
