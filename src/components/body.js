@@ -6,7 +6,7 @@ import '../css/body.css'
 
 const Body = props => (
   <div className = 'about'>
-    <Container>
+    <Container fluid>
     <Row>
     <Col md="6">
     <Coffee 

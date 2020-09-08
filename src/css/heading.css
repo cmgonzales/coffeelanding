@@ -11,11 +11,14 @@
 }
 
 .intro {
+  width: 80%;
+  margin: 0 auto;
  
 }
 .coffee{
     color: white; 
-   width: 80%;
+    float: right;
+  
 }
 .justCoffee{
     margin-top: 100px;
@@ -41,12 +44,4 @@
     color: #fff;
   }
 
-  @media only screen and (max-width: 420px) {
-    .justCoffee{
-      margin-top: 70px;
-    }
-    .coffee{
   
- margin: 0 auto;    
-  }
-  }
