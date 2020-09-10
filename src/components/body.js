@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import '../css/body.css'
 
 const Body = props => (
-  <div className = 'about'>
+  <div id = 'about' className = 'about'>
     <Container fluid>
     <Row>
     <Col md="6">

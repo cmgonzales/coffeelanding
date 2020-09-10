@@ -4,7 +4,7 @@ import Card from "../Card/cards";
 import { Container, Row, Col } from 'reactstrap';
 import '../css/process.css'
 const Process = props => (
-<div  className = "contain">
+<div id = 'process'  className = "contain">
 <div className = 'process-width'>
   <Container fluid>
   <Row >
