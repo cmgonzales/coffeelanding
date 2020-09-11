@@ -14,7 +14,7 @@ const Intro = props => {
         <div className = "coffee">
           <h1 className = "justCoffee">{props.title}</h1>
           <h3 className = "life">{props.description}</h3>
-          <Button color="primary">Get a quote</Button>{' '}
+          <Button color="primary">Order To Go</Button>{' '}
           </div>
      
   

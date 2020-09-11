@@ -34,7 +34,7 @@ export default class Navigation extends Component {
           <li className="nav-item">
             <Link
               activeClass="active"
-              to="contact"
+              to="process"
               spy={true}
               smooth={true}
               offset={-70}
@@ -46,7 +46,7 @@ export default class Navigation extends Component {
           <li className="nav-item">
             <Link
               activeClass="active"
-              to="section3"
+              to="contact"
               spy={true}
               smooth={true}
               offset={-70}
