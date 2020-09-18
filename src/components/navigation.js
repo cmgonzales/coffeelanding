@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+
 import '../css/nav.css'
 import logo from '../img/bean.png'
 
@@ -10,7 +11,7 @@ export default class Navigation extends Component {
 
   render() {
     return (
-      <nav className="nav" id="navbar">
+      <nav className="nav"  id="navbar">
       <div className="nav-content">
         <img
           src={logo}
@@ -58,6 +59,7 @@ export default class Navigation extends Component {
         </ul>
       </div>
     </nav>
+ 
     );
   }
 }
