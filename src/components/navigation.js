@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-
 import '../css/nav.css'
 import logo from '../img/bean.png'
+import Burger from './Burger'
 
 export default class Navigation extends Component {
   scrollToTop = () => {
@@ -11,14 +11,17 @@ export default class Navigation extends Component {
 
   render() {
     return (
+
       <nav className="nav"  id="navbar">
       <div className="nav-content">
+      <div className = 'logo'>
         <img
           src={logo}
           className="nav-logo"
           alt="Logo"
           onClick={this.scrollToTop}
         />
+        </div>
         <ul className="nav-items">
           <li className="nav-item">
             <Link
@@ -57,6 +60,7 @@ export default class Navigation extends Component {
             </Link>
           </li>
         </ul>
+        <Burger/>
       </div>
     </nav>
  
