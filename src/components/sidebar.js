@@ -36,9 +36,10 @@ const SideBar = ({ open }) => {
   return (
     <Ul open={open}>
       <li className="nav-item">
-      <li>
+  
       <button onClick = {scrollToTop}>test</button>
       </li>
+      <li>
             <Link
               activeClass="active"
               to="about"
@@ -50,8 +51,32 @@ const SideBar = ({ open }) => {
               About
             </Link>
             </li>
-      <li>Process</li>
-      <li>Contact Us</li>  
+         
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="process"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Process
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact Us
+            </Link>
+          </li>
+        
     </Ul>
   )
       }

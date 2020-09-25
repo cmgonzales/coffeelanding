@@ -1,70 +1,38 @@
-import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import '../css/nav.css'
-import logo from '../img/bean.png'
+import React from 'react'
+import styled from 'styled-components';
 import Burger from './Burger'
+import bean from '../img/bean.png'
 
-export default class Navigation extends Component {
-  scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+const Nav = styled.nav`
+  width: 80%;
+  height: 55px;
+  margin: 0 auto;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    padding: 15px 0;
+    height: 10px;
+    width: 10px;
+  }
+  `
 
-  render() {
+const Navbar = () => {
+
+ 
+ 
     return (
-
-      <nav className="nav"  id="navbar">
-      <div className="nav-content">
+      
+      <Nav>
       <div className = 'logo'>
-        <img
-          src={logo}
-          className="nav-logo"
-          alt="Logo"
-          onClick={this.scrollToTop}
-        />
-        </div>
-        <ul className="nav-items">
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="process"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Process
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Contact Us
-            </Link>
-          </li>
-        </ul>
-        <Burger/>
-      </div>
-    </nav>
+        {bean}
+      </div>   
+        <Burger/> 
+    </Nav>
+ 
  
     );
-  }
 }
 
+export default Navbar
