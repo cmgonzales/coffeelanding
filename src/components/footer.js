@@ -10,7 +10,7 @@ const Footer = props => (
  <h3>Coffee Shop</h3>
  <p>123 Main Ave</p>
  <p>California</p>
- <p>(123)555-2010</p>
+ <p>(123)555-4010</p>
   <ImFacebook2/>
   <ImTwitter/>
   <ImInstagram/>
