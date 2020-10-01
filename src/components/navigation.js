@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Burger from './Burger'
-import bean from '../img/bean.png'
+
 
 const Nav = styled.nav`
   width: 80%;
@@ -14,19 +14,22 @@ const Nav = styled.nav`
   .logo {
     padding: 15px 0;
     height: 10px;
-    width: 10px;
+    width: 20%;
+    color: brown;
   }
   `
 
 const Navbar = () => {
 
- 
- 
+  const logo = () =>{
+    console.log('testr');
+  }
+
     return (
       
       <Nav>
-      <div className = 'logo'>
-        {bean}
+      <div className = 'logo' onClick = {logo}>
+        Coffee Shope
       </div>   
         <Burger/> 
     </Nav>
