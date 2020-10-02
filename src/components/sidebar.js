@@ -1,17 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 
 const Ul = styled.ul`
    list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
+  display: inline-block;
   li {
     padding: 18px 10px;
+
   }
   @media (max-width: 768px) {
- 
     background-color: #0D2538;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
@@ -29,17 +28,11 @@ const Ul = styled.ul`
 
 const SideBar = ({ open }) => {
 
-   function scrollToTop () {
-        scroll.scrollToTop();
-      };
-      
   return (
     <Ul open={open}>
       <li className="nav-item">
   
-      <button onClick = {scrollToTop}>test</button>
-      </li>
-      <li>
+      
             <Link
               activeClass="active"
               to="about"

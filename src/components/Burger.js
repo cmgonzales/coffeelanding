@@ -44,6 +44,7 @@ const Burger = () => {
         <div />
         <div />
         <div />
+        <div />
       </StyledBurger>
       <SideBar open={open}/>
     </>

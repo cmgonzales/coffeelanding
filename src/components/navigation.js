@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Burger from './Burger'
-
+import { animateScroll as scroll } from "react-scroll";
 
 const Nav = styled.nav`
   width: 80%;
@@ -11,6 +11,7 @@ const Nav = styled.nav`
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
+  
   .logo {
     padding: 15px 0;
     height: 10px;
@@ -22,7 +23,7 @@ const Nav = styled.nav`
 const Navbar = () => {
 
   const logo = () =>{
-    console.log('testr');
+    scroll.scrollToTop();
   }
 
     return (
