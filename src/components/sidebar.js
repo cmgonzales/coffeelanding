@@ -5,9 +5,11 @@ import { Link } from "react-scroll";
 
 const Ul = styled.ul`
    list-style: none;
-  display: inline-block;
+
+ 
   li {
     padding: 18px 10px;
+    display: inline-block;
 
   }
   @media (max-width: 768px) {
@@ -22,6 +24,7 @@ const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;
+      display: flex;
     }
   }
 `;
@@ -31,8 +34,6 @@ const SideBar = ({ open }) => {
   return (
     <Ul open={open}>
       <li className="nav-item">
-  
-      
             <Link
               activeClass="active"
               to="about"

@@ -1,8 +1,4 @@
 
-body{
- height: 100%;
-}
-
 .coffee{
 margin-top: 50px;
 top: 50%;
@@ -27,8 +23,9 @@ padding: 0;
     height: 90%
 }
 .about{
-    width: 80%;
-    margin: 0 auto;
+    width: 100;
+
+  
 
 }
 

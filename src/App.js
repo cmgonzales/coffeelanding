@@ -7,13 +7,23 @@ import Footer from './components/footer'
 import NavBar from './components/navigation'
 
 
+const style = {
+  position: 'sticky',
+  top: 0,
+  width: '100%',
+  backgroundColor: 'white',
+  zindex:100
+}
+
 
 
 function App() {
 
   return (
     <div>
+      <div style ={style}>
       <NavBar/>
+      </div>
       <Heading/>
       <Body/>
       <Process/>
