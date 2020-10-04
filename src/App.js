@@ -12,7 +12,7 @@ const style = {
   top: 0,
   width: '100%',
   backgroundColor: 'white',
-  zindex:100
+  zindex: 1
 }
 
 

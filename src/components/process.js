@@ -10,7 +10,7 @@ const Process = props => (
   <Row >
     {Api.map(({ pic, name, desc }) => (
       <>
-      <Col md={4} className = "innerCard">
+      <Col md= '4' className = "innerCard">
         <Card imge={pic} name={name} desc={desc} />
         </Col>
       </>

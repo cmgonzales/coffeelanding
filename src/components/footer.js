@@ -14,6 +14,21 @@ const Footer = props => (
   <ImFacebook2/>
   <ImTwitter/>
   <ImInstagram/>
+  <h3>Coffee Shop</h3>
+ <p>123 Main st</p>
+ <p>California</p>
+ <p>(123)555-4010</p>
+ <h3>Coffee Shop</h3>
+ <p>123 Main st</p>
+ <p>California</p>
+ <p>(123)555-4010</p>
+ <p>123 Main st</p>
+ <p>California</p>
+ <p>(123)555-4010</p>
+ <h3>Coffee Shop</h3>
+ <p>123 Main st</p>
+ <p>California</p>
+ <p>(123)555-4010</p>
   </Container>
  </div>
 )
