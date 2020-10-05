@@ -4,19 +4,21 @@ import Burger from './Burger'
 import { animateScroll as scroll } from "react-scroll";
 
 const Nav = styled.nav`
-  width: 80%;
-  height: 55px;
+  width: 80.5%;
+  height: 60px;
   margin: 0 auto;
   border-bottom: 2px solid #f1f1f1;
-  padding: 0 20px;
+  padding: 0 15px;
   display: flex;
   justify-content: space-between;
   
   .logo {
     padding: 15px 0;
     height: 10px;
-    width: 20%;
+    width: 15%;
     color: brown;
+    cursor: pointer;
+
   }
   `
 

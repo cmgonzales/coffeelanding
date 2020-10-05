@@ -10,7 +10,7 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
     display: inline-block;
-
+    cursor: pointer;
   }
   @media (max-width: 768px) {
     background-color: #0D2538;

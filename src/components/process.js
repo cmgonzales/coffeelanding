@@ -1,6 +1,6 @@
 import React from "react";
 import Api from "../api/api";
-import Card from "../Card/cards";
+import Card from "../Card/card.js"
 import { Container, Row, Col } from 'reactstrap';
 import '../css/process.css'
 const Process = props => (
@@ -11,7 +11,7 @@ const Process = props => (
     {Api.map(({ pic, name, desc }) => (
       <>
       <Col md= '4' className = "innerCard">
-        <Card imge={pic} name={name} desc={desc} />
+        <Card image={pic} name={name} desc={desc} />
         </Col>
       </>
     ))}

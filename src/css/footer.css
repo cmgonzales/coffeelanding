@@ -1,19 +1,11 @@
 .footer{
     margin-top: 10px;
-    margin-bottom: 10px;
     color: rgb(63, 25, 7);
     width: 80%;
     margin: 0 auto;
-    
 }
-.contact{
-font-size:40px;
-
-}
-i{
-
-
+.icon{
 height: 40px;
-
-
+margin-right: 5px;
+cursor: pointer;
 }
