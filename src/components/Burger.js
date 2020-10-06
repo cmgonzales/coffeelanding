@@ -14,6 +14,8 @@ const StyledBurger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    height: 3.3vmax;
+    top: 12px;
   }
   div {
     width: 2rem;

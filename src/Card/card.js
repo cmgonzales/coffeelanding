@@ -12,7 +12,7 @@ const Cards = (props) => {
         <CardImg style ={{height: 250}}  top width="100%" src= {props.image} alt="Card image cap" />
         <CardBody>
           <CardTitle>{props.name}</CardTitle>   
-          <CardText>{props.desc}</CardText> 
+          <CardText  >{props.desc}</CardText> 
         </CardBody>
       </Card>
     </div>

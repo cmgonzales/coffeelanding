@@ -13,7 +13,7 @@
 .intro {
   width: 80%;
   margin: 0 auto;
- font-size: 1em;
+ font-size: 1.3vmax;
 }
 .coffee{
     color: white; 
@@ -31,7 +31,7 @@
 }
 
   button {
-    font-size: .9rem;
+    font-size: .9vmax;
     font-weight: 700;
     border: none;
     border-radius: 3px;
