@@ -8,7 +8,7 @@ const Footer = props => (
  <div id = 'contact' className = "footer">
  <Container fluid>
  <h3>Coffee Shop</h3>
- <p>123 Main st</p>
+ <p>123 Main st.</p>
  <p>California</p>
  <p>(123)555-4010</p>
   <ImFacebook2 className = 'icon'/>
