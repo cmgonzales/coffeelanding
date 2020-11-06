@@ -40,7 +40,7 @@ const Navbar = () => {
       
       <Nav>
       <div className = 'logo' onClick = {logo}>
-        Coffee Shope
+        Dan's Coffee 
       </div>   
         <Burger/> 
     </Nav>

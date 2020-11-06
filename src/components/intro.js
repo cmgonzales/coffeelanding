@@ -1,6 +1,6 @@
 import React from "react";
 import { PropTypes } from "prop-types";
-import { Button } from 'reactstrap';
+
 import '../css/heading.css'
 
 
@@ -13,7 +13,6 @@ const Intro = props => {
         <div className = "coffee">
           <h1 className = "justCoffee">{props.title}</h1>
           <h3 className = "life">{props.description}</h3>
-          <Button color="primary">Order To Go</Button>{' '}
           </div>
      
   
