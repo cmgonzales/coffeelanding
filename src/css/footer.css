@@ -2,13 +2,11 @@
     text-align: center;
 }
 .footer{
-    margin-top: 10px;
-    color: rgb(63, 25, 7);
+    padding-top: 60px;
+    color: black;
     width: 80%;
     margin: 0 auto;
 }
-.icon{
-height: 40px;
-margin-right: 5px;
-cursor: pointer;
+h2{
+    padding-bottom: 60px;
 }
