@@ -10,8 +10,7 @@ const api = [
   {
     pic: require("../img/roasted.jpg"),
     name: "Roasting",
-    desc:
-      "the beans are roasted in huge commercial roasters according to procedures and specifications which vary among manufacturers (specialty shops usually purchase beans directly from the growers and roast them on-site"
+    desc: "the beans are roasted in huge commercial roasters according to procedures and specifications which vary among manufacturers (specialty shops usually purchase beans directly from the growers and roast them on-site"
   },
   {
     pic: require("../img/package.jpg"),
